@@ -1,6 +1,6 @@
 # Todo App
 
-A full-stack Todo application with secure user authentication built with vanilla JavaScript and Node.js.
+> A full-stack Todo application with secure user authentication built with vanilla JavaScript and Node.js.
 
 ## 🛠 Tech Stack
 
@@ -32,7 +32,6 @@ Feel free to:
 
 > Contributions are always welcome!
 
----
 
 ## 🌠 Contact
 
