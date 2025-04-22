@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.logout-btn {
+    background-color: #e74c3c;
+    margin-top: 25px;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+.todo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-form input {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.todo-form button {
+    width: auto;
+}
+
+.todo-item {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-left: 4px solid #3498db;
+}
+
+.todo-item.done {
+    opacity: 0.7;
+    border-left-color: #2ecc71;
+}
+
+.todo-item input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 8px;
+}
+
+.todo-item input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.todo-item small {
+    margin-left: auto;
+    color: #7f8c8d;
+    font-size: 0.8em;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    padding: 8px 12px;
+    width: auto;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#username-display {
+    color: #3498db;
+}
